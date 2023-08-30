@@ -1,0 +1,30 @@
+.header{
+    background-image: url(https://myhotposters.com/cdn/shop/products/mR0116_1024x1024.jpeg?v=1571444169) ;
+    height: 60rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.barra{
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--gris);
+}
+.navegacion{
+    display: flex;
+    gap: 1.5rem;
+}
+.navegacion-enlaces{
+    color: var(--primario);
+    font-weight: 800;
+}
+.textos-header{
+    text-align: center;
+    color: var(--negro);
+    margin-top: 15rem;
+}
+.letra-bold{
+    font-weight: 100;
+}

@@ -1,0 +1,28 @@
+.headerC1{
+    background-color: var(--negro);
+    height: 35px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.barraC1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegacionC1{
+    display: flex;
+    gap: 1.5rem;
+}
+.navegacion-enlacesC1{
+    color: var(--primario);
+    font-weight: 800;
+}
+.textos-headerC1{
+    text-align: center;
+    color: var(--negro);
+    margin-top: 15rem;
+}
+.letra-boldC1{
+    font-weight: 100;
+}
