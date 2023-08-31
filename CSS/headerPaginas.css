@@ -1,28 +1,20 @@
-.headerC1{
-    background-color: var(--negro);
-    height: 35px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+.headerpagina{
+    background-color: var(--gris);
+
 }
-.barraC1{
+.barra{
+    z-index: 100;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-}
-.navegacionC1{
-    display: flex;
-    gap: 1.5rem;
-}
-.navegacion-enlacesC1{
-    color: var(--primario);
-    font-weight: 800;
-}
-.textos-headerC1{
+    background-color: var(--gris);
     text-align: center;
-    color: var(--negro);
-    margin-top: 15rem;
 }
-.letra-boldC1{
-    font-weight: 100;
+.navegacion{
+    display: flex;
+    gap: 0.4rem;
+}
+.navegacion-enlaces{
+    color: var(--primario);
+    font-weight: 600;
+    text-decoration: none;
 }

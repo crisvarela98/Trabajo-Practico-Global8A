@@ -10,43 +10,59 @@
 </head>
 
 <body>
-   <header class="headerC1">
-        <div class="contenedorC1">
-            <div class="barraC1">
-                <a href="./index.html">
-                    <h2>23<span class="letra-bold">STORE</span>
-                    </h2>
-                </a>
-                <nav class="navegacion">
-                  <a href="index.html" class="navegacion-enlaces">Inicio</a>
-                  <a href="Tienda.html" class="navegacion-enlaces">Productos</a>
-                  <a href="Oferta.html" class="navegacion-enlaces">Ofertas</a>
-                  <a href="contacto.html" class="navegacion-enlaces">Contacto</a>
-              </nav>
-            </div>
+  <header class="headerpagina">
+    <div class="contenedor">
+        <div class="barra">
+          <nav class="navegacion">
+            <a href="index.html" class="navegacion-enlaces">Inicio</a>
+            <a href="productos.html" class="navegacion-enlaces">Productos</a>
+            <a href="Oferta.html" class="navegacion-enlaces">Ofertas</a>
+            <a href="contacto.html" class="navegacion-enlaces">Contacto</a>
+        </nav>
         </div>
-    </header>
-    <main class="contenedor">
-        <h3 class="center-text">Contacto</h3>
-        <div class="contacto-bg"></div>
-        <form class="formulario" action="">
-            <div class="campo">
-                <label class="campo-label" for="">Nombre</label>
-                <input class="campo-input" type="text" placeholder="Ingrese su nombre">
-            </div>
-            <div class="campo">
-                <label class="campo-label" for="">E-mail</label>
-                <input class="campo-input" type="email" name="" id="" placeholder="Ingrese su Email">
-            </div>
-            <div class="campo">
-                <label class="campo-label" for="">Mensaje</label>
-                <textarea class="campo-input campo-textarea" placeholder="Mensaje..." name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div class="campo">
-                <input title="Enviar Formulario" class="boton btn-form" type="submit" value="Enviar">
-            </div>
-        </form>
-    </main>
+    </div>
+  </header>
+    <div class="contact_form">
+      <div class="formulario">      
+        <h1>Formulario de contacto</h1>
+          <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+            <form action="submeter-formulario.php" method="post">       
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                  </p>
+                
+                  <p>
+                    <label for="email" class="colocar_email">Email
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                  </p>              
+                  <p>
+                    <label for="asunto" class="colocar_asunto">Asunto
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                  </p>    
+                
+                  <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                      <span class="obligatorio">*</span>
+                    </label>                     
+                                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                  </p>                    
+                
+                  <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+  
+                  <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                  </p>          
+              
+            </form>
+      </div>  
+    </div>
     <footer>
       <!-- redirecciones -->
       <section class="ft-main">

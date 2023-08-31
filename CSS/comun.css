@@ -1,34 +1,39 @@
 /* Root, pantalla, letras , body y html*/
 :root{
-    --primario: #cf093f;
-    --blanco: white;
-    --gris: #a7a5a5;
-    --negro: black;
-    --oro: #ecab0f;
+  --primario: #cf093f;
+  --blanco: white;
+  --gris: #a7a5a5;
+  --negro: black;
+  --oro: #ecab0f;
 }
 *{
-  box-sizing: border-box;
+box-sizing: border-box;
+margin: 0; 
+padding: 0;
 }
 html,body{
-  font-size: 62.5%;
-  margin: 0;
-  padding: 0;
   text-align: center;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
 }
-.a{
-  color:var(--negro);
-  text-decoration: none;
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: var(--negro);
 }
-.a:hover{
-  color:var(--oro);
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: var(--primario);   
 }
-h1{font-size: 3rem;}
-h2{font-size: 2.5rem;}
-h3{font-size: 2rem;}
-h4{font-size: 1.5rem;}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
 *,*::after,*::before{
-    box-sizing: inherit;
+  box-sizing: inherit;
 }

@@ -1,6 +1,9 @@
 @import"comun.css";
-@import"grid.css";
 @import"headerPaginas.css";
-@import"footer.css";
 @import"headerindex.css";
-
+@import"footer.css";
+@import"grid.css";
+@import"contactos.css";
+@import"menu.css";
+@import"productos.css";
+@import"aside.css"

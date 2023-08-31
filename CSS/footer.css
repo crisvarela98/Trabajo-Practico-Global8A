@@ -1,9 +1,4 @@
-* {
-    box-sizing: border-box;
-    font-family: ’Lato’, sans-serif;
-    margin: 0; 
-    padding: 0;
-}
+
 ul {
     list-style: none;
     padding-left: 0;
@@ -57,19 +52,31 @@ form {
     display: flex;
     flex-wrap: wrap;
 }
-input[type="email"] {
+.email-footer{
     border: 0;
     padding: 0.625rem;
     margin-top: 0.3125rem;
+      display: flexbox;
 }
-input[type="submit"] {
+.submit-footer{
     background-color: var(--negro);
     color: var(--oro);
     cursor: pointer;
     border: 0;
     padding: 0.625rem 0.9375rem;
     margin-top: 0.3125rem;
+    display: flexbox;
 }
+.submit-footer :hoover{
+    background-color: var(--blanco);
+    color: var(--primario);
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+    display: flexbox;
+}
+
 .ft-social {
     padding: 0 1.875rem 1.25rem;
 }

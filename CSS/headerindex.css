@@ -11,20 +11,14 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--gris);
+    text-decoration: none;
 }
 .navegacion{
     display: flex;
-    gap: 1.5rem;
+    gap: 0.4rem;
 }
 .navegacion-enlaces{
     color: var(--primario);
-    font-weight: 800;
-}
-.textos-header{
-    text-align: center;
-    color: var(--negro);
-    margin-top: 15rem;
-}
-.letra-bold{
-    font-weight: 100;
+    font-weight: 600;
+    text-decoration: none;
 }
