@@ -1,0 +1,14 @@
+.caja-1{
+    height: 100px;
+    border: 1px solid;
+    border-color: var(--primario);
+    padding: 10px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.navegacion-caja{
+    background-color: var(--gris);
+    justify-content: center;
+}
