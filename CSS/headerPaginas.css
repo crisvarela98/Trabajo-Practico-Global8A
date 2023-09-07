@@ -20,3 +20,9 @@
       font-weight: 600;
       text-decoration: none;
   }
+
+  .tituloheader{
+    color: var(--oro);
+    text-decoration: none;
+    
+  }
